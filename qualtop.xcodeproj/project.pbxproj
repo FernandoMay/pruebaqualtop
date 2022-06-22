@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C154943B2863A09800F345B0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154943A2863A09800F345B0 /* Tests_iOS.swift */; };
+		C154943D2863A09800F345B0 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154943C2863A09800F345B0 /* Tests_iOSLaunchTests.swift */; };
+		C15494472863A09800F345B0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494462863A09800F345B0 /* Tests_macOS.swift */; };
+		C15494492863A09800F345B0 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494482863A09800F345B0 /* Tests_macOSLaunchTests.swift */; };
+		C154944A2863A09800F345B0 /* qualtop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C154941F2863A09600F345B0 /* qualtop.xcdatamodeld */; };
+		C154944B2863A09800F345B0 /* qualtop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C154941F2863A09600F345B0 /* qualtop.xcdatamodeld */; };
+		C154944C2863A09800F345B0 /* qualtopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494212863A09600F345B0 /* qualtopApp.swift */; };
+		C154944D2863A09800F345B0 /* qualtopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494212863A09600F345B0 /* qualtopApp.swift */; };
+		C154944E2863A09800F345B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494222863A09600F345B0 /* ContentView.swift */; };
+		C154944F2863A09800F345B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494222863A09600F345B0 /* ContentView.swift */; };
+		C15494502863A09800F345B0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494232863A09600F345B0 /* Persistence.swift */; };
+		C15494512863A09800F345B0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15494232863A09600F345B0 /* Persistence.swift */; };
+		C15494522863A09800F345B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15494242863A09800F345B0 /* Assets.xcassets */; };
+		C15494532863A09800F345B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15494242863A09800F345B0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C15494372863A09800F345B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C154941A2863A09500F345B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15494282863A09800F345B0;
+			remoteInfo = "qualtop (iOS)";
+		};
+		C15494432863A09800F345B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C154941A2863A09500F345B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C154942E2863A09800F345B0;
+			remoteInfo = "qualtop (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C15494202863A09600F345B0 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		C15494212863A09600F345B0 /* qualtopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qualtopApp.swift; sourceTree = "<group>"; };
+		C15494222863A09600F345B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C15494232863A09600F345B0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C15494242863A09800F345B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C15494292863A09800F345B0 /* qualtop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qualtop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C154942F2863A09800F345B0 /* qualtop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qualtop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15494312863A09800F345B0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C15494362863A09800F345B0 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C154943A2863A09800F345B0 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C154943C2863A09800F345B0 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		C15494422863A09800F345B0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15494462863A09800F345B0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C15494482863A09800F345B0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15494262863A09800F345B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154942C2863A09800F345B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15494332863A09800F345B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154943F2863A09800F345B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C15494192863A09500F345B0 = {
+			isa = PBXGroup;
+			children = (
+				C154941E2863A09600F345B0 /* Shared */,
+				C15494302863A09800F345B0 /* macOS */,
+				C15494392863A09800F345B0 /* Tests iOS */,
+				C15494452863A09800F345B0 /* Tests macOS */,
+				C154942A2863A09800F345B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C154941E2863A09600F345B0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C15494212863A09600F345B0 /* qualtopApp.swift */,
+				C15494222863A09600F345B0 /* ContentView.swift */,
+				C15494232863A09600F345B0 /* Persistence.swift */,
+				C15494242863A09800F345B0 /* Assets.xcassets */,
+				C154941F2863A09600F345B0 /* qualtop.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C154942A2863A09800F345B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15494292863A09800F345B0 /* qualtop.app */,
+				C154942F2863A09800F345B0 /* qualtop.app */,
+				C15494362863A09800F345B0 /* Tests iOS.xctest */,
+				C15494422863A09800F345B0 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15494302863A09800F345B0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C15494312863A09800F345B0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C15494392863A09800F345B0 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C154943A2863A09800F345B0 /* Tests_iOS.swift */,
+				C154943C2863A09800F345B0 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C15494452863A09800F345B0 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C15494462863A09800F345B0 /* Tests_macOS.swift */,
+				C15494482863A09800F345B0 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15494282863A09800F345B0 /* qualtop (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15494562863A09800F345B0 /* Build configuration list for PBXNativeTarget "qualtop (iOS)" */;
+			buildPhases = (
+				C15494252863A09800F345B0 /* Sources */,
+				C15494262863A09800F345B0 /* Frameworks */,
+				C15494272863A09800F345B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qualtop (iOS)";
+			productName = "qualtop (iOS)";
+			productReference = C15494292863A09800F345B0 /* qualtop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C154942E2863A09800F345B0 /* qualtop (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15494592863A09800F345B0 /* Build configuration list for PBXNativeTarget "qualtop (macOS)" */;
+			buildPhases = (
+				C154942B2863A09800F345B0 /* Sources */,
+				C154942C2863A09800F345B0 /* Frameworks */,
+				C154942D2863A09800F345B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qualtop (macOS)";
+			productName = "qualtop (macOS)";
+			productReference = C154942F2863A09800F345B0 /* qualtop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C15494352863A09800F345B0 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C154945C2863A09800F345B0 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C15494322863A09800F345B0 /* Sources */,
+				C15494332863A09800F345B0 /* Frameworks */,
+				C15494342863A09800F345B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15494382863A09800F345B0 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C15494362863A09800F345B0 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C15494412863A09800F345B0 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C154945F2863A09800F345B0 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C154943E2863A09800F345B0 /* Sources */,
+				C154943F2863A09800F345B0 /* Frameworks */,
+				C15494402863A09800F345B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15494442863A09800F345B0 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C15494422863A09800F345B0 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C154941A2863A09500F345B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C15494282863A09800F345B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C154942E2863A09800F345B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C15494352863A09800F345B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C15494282863A09800F345B0;
+					};
+					C15494412863A09800F345B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C154942E2863A09800F345B0;
+					};
+				};
+			};
+			buildConfigurationList = C154941D2863A09500F345B0 /* Build configuration list for PBXProject "qualtop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15494192863A09500F345B0;
+			productRefGroup = C154942A2863A09800F345B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15494282863A09800F345B0 /* qualtop (iOS) */,
+				C154942E2863A09800F345B0 /* qualtop (macOS) */,
+				C15494352863A09800F345B0 /* Tests iOS */,
+				C15494412863A09800F345B0 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C15494272863A09800F345B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15494522863A09800F345B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154942D2863A09800F345B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15494532863A09800F345B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15494342863A09800F345B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15494402863A09800F345B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15494252863A09800F345B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C154944C2863A09800F345B0 /* qualtopApp.swift in Sources */,
+				C15494502863A09800F345B0 /* Persistence.swift in Sources */,
+				C154944A2863A09800F345B0 /* qualtop.xcdatamodeld in Sources */,
+				C154944E2863A09800F345B0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154942B2863A09800F345B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C154944D2863A09800F345B0 /* qualtopApp.swift in Sources */,
+				C15494512863A09800F345B0 /* Persistence.swift in Sources */,
+				C154944B2863A09800F345B0 /* qualtop.xcdatamodeld in Sources */,
+				C154944F2863A09800F345B0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15494322863A09800F345B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C154943D2863A09800F345B0 /* Tests_iOSLaunchTests.swift in Sources */,
+				C154943B2863A09800F345B0 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C154943E2863A09800F345B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15494492863A09800F345B0 /* Tests_macOSLaunchTests.swift in Sources */,
+				C15494472863A09800F345B0 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C15494382863A09800F345B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15494282863A09800F345B0 /* qualtop (iOS) */;
+			targetProxy = C15494372863A09800F345B0 /* PBXContainerItemProxy */;
+		};
+		C15494442863A09800F345B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C154942E2863A09800F345B0 /* qualtop (macOS) */;
+			targetProxy = C15494432863A09800F345B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C15494542863A09800F345B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C15494552863A09800F345B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C15494572863A09800F345B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FMay.qualtop;
+				PRODUCT_NAME = qualtop;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C15494582863A09800F345B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FMay.qualtop;
+				PRODUCT_NAME = qualtop;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C154945A2863A09800F345B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FMay.qualtop;
+				PRODUCT_NAME = qualtop;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C154945B2863A09800F345B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FMay.qualtop;
+				PRODUCT_NAME = qualtop;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C154945D2863A09800F345B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FMay.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "qualtop (iOS)";
+			};
+			name = Debug;
+		};
+		C154945E2863A09800F345B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FMay.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "qualtop (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15494602863A09800F345B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FMay.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "qualtop (macOS)";
+			};
+			name = Debug;
+		};
+		C15494612863A09800F345B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FMay.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "qualtop (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C154941D2863A09500F345B0 /* Build configuration list for PBXProject "qualtop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15494542863A09800F345B0 /* Debug */,
+				C15494552863A09800F345B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15494562863A09800F345B0 /* Build configuration list for PBXNativeTarget "qualtop (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15494572863A09800F345B0 /* Debug */,
+				C15494582863A09800F345B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15494592863A09800F345B0 /* Build configuration list for PBXNativeTarget "qualtop (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C154945A2863A09800F345B0 /* Debug */,
+				C154945B2863A09800F345B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C154945C2863A09800F345B0 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C154945D2863A09800F345B0 /* Debug */,
+				C154945E2863A09800F345B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C154945F2863A09800F345B0 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15494602863A09800F345B0 /* Debug */,
+				C15494612863A09800F345B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C154941F2863A09600F345B0 /* qualtop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C15494202863A09600F345B0 /* Shared.xcdatamodel */,
+			);
+			currentVersion = C15494202863A09600F345B0 /* Shared.xcdatamodel */;
+			path = qualtop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C154941A2863A09500F345B0 /* Project object */;
+}
